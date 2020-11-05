@@ -1,0 +1,14 @@
+applicationhost.config
+.vs
+packages
+
+# all bin folders
+bin
+
+#obj/Debug
+
+AutoManagementSystem/AutoManagementSystem.API.Core/obj/Debug
+AutoManagementSystem/AutoManagementSystem.Data/obj/Debug
+AutoManagementSystem/AutoManagementSystem.Domain/obj/Debug
+AutoManagementSystem/AutoManagementSystem.Services/obj/Debug
+AutoManagementSystem/AutoManagementSystem.Tests/obj/Debug

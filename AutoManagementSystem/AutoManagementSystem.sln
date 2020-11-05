@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoManagementSystem.Domain", "AutoManagementSystem.Domain\AutoManagementSystem.Domain.csproj", "{F7FE6F4B-FCDB-42B2-9D12-C127880B5616}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoManagementSystem.Data", "AutoManagementSystem.Data\AutoManagementSystem.Data.csproj", "{DC03250A-F229-439F-ACA9-46DE462E93CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7FE6F4B-FCDB-42B2-9D12-C127880B5616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7FE6F4B-FCDB-42B2-9D12-C127880B5616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7FE6F4B-FCDB-42B2-9D12-C127880B5616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7FE6F4B-FCDB-42B2-9D12-C127880B5616}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC03250A-F229-439F-ACA9-46DE462E93CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC03250A-F229-439F-ACA9-46DE462E93CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC03250A-F229-439F-ACA9-46DE462E93CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC03250A-F229-439F-ACA9-46DE462E93CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3627D15D-4FEB-49E4-B4E7-39E7B5337E08}
+	EndGlobalSection
+EndGlobal
