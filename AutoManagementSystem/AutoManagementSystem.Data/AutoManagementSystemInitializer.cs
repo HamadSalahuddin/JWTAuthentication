@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AutoManagementSystem.Data
 {
-    public class AutoManagementSystemInitializer: DropCreateDatabaseIfModelChanges<AutoManagementSystemEntities>
+    public class AutoManagementSystemInitializer //: DropCreateDatabaseIfModelChanges<AutoManagementSystemEntities>
     {
     }
 }
