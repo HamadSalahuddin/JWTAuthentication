@@ -54,6 +54,7 @@
     <Compile Include="AutoManagementSystemEntities.cs" />
     <Compile Include="AutoManagementSystemInitializer.cs" />
     <Compile Include="Configurations\BrandingConfiguration.cs" />
+    <Compile Include="Configurations\CustomerConfigration.cs" />
     <Compile Include="Infrastructure\DbFactory.cs" />
     <Compile Include="Infrastructure\Disposable.cs" />
     <Compile Include="Infrastructure\IDbFactory.cs" />
@@ -62,6 +63,7 @@
     <Compile Include="Infrastructure\RepositoryBase.cs" />
     <Compile Include="Infrastructure\UnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\CustomerRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

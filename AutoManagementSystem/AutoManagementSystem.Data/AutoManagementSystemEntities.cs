@@ -18,6 +18,7 @@ namespace AutoManagementSystem.Data
         }
 
         public DbSet<Branding> Brandings { get; set; }
+        public DbSet<Customer> Customers { get; set; }
 
         public virtual void Commit()
         {
@@ -27,6 +28,7 @@ namespace AutoManagementSystem.Data
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Configurations.Add(new BrandingConfiguration());
+            modelBuilder.Configurations.Add(new CustomerConfigration());
         }
     }
 }
