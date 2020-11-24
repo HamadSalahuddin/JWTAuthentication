@@ -1,6 +1,7 @@
 applicationhost.config
 .vs
 packages
+*.cache
 
 # all bin folders
 bin

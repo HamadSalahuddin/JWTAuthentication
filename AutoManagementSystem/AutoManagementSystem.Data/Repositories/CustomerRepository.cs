@@ -14,14 +14,22 @@ namespace AutoManagementSystem.Data.Repositories
         {
         }
 
-        public Customer GetCustomerByEmail(string emailAddress)
+        public List<Customer> GetCustomersByFirstName(string firstName)
             =>
              DbContext.Customers
-                .Single(customer => customer.EmailAddress == emailAddress);
+                .Where(customer => customer.FirstName.ToLower() == firstName.ToLower())
+                .ToList();
+
+        public List<Customer> GetCustomersByLastName(string lastName)
+            =>
+             DbContext.Customers
+                .Where(customer => customer.LastName.ToLower() == lastName.ToLower())
+                .ToList();
     }
 
     public interface ICustomerRepository: IRepository<Customer>
     {
-        Customer GetCustomerByEmail(string emailAdd);
+        List<Customer> GetCustomersByFirstName(string firstName);
+        List<Customer> GetCustomersByLastName(string firstName);
     }
 }
